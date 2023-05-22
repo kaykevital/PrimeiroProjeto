@@ -1,6 +1,9 @@
 body{
-    background-color: rgb(221, 131, 134);
+    background-color: rgb(182, 240, 244);
     color: rgb(0, 0, 0);
     text-align:center;
-    
+}
+
+input {
+    margin-bottom: 10px;
 }
