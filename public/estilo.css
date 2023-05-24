@@ -13,6 +13,10 @@ input {
     font-size: 20px;
 }
 
+legend{
+    font-size: 20px;
+}
+
 
 #botao{
     width: 20%;
@@ -34,8 +38,7 @@ input {
 }
 
 fieldset{
-    border: 3px solid rgb(26, 94, 98);
-    
+    border: 3px solid rgb(26, 94, 98); 
 }
 
 
@@ -51,9 +54,9 @@ fieldset{
 }
 
 #informacoes:hover {
-	border-color: #C78C19;
+	border-color: rgb(42, 147, 152);
 }
 
 #informacoes:active {
-	border-color: #088C19;	
+	border-color: rgb(94, 215, 222);	
 }
