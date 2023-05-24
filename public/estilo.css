@@ -4,6 +4,56 @@ body{
     text-align:center;
 }
 
+label{
+    font-size: 25px;
+}
+
 input {
     margin-bottom: 10px;
+    font-size: 20px;
+}
+
+
+#botao{
+    width: 20%;
+    padding: 15px 0;
+    background: rgb(115, 203, 190);
+    color:white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 25px;
+    transition: 1s all;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#botao:hover {
+	background: rgb(92, 189, 175);
+	transform: scale(1.2);
+}
+
+fieldset{
+    border: 3px solid rgb(26, 94, 98);
+    
+}
+
+
+#informacoes { 
+	box-sizing: border-box;
+	border: 2px solid #000000;
+	border-radius: 10px;
+    padding: 30px 20px;
+    vertical-align: top;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+#informacoes:hover {
+	border-color: #C78C19;
+}
+
+#informacoes:active {
+	border-color: #088C19;	
 }

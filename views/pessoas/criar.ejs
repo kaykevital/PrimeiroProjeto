@@ -9,28 +9,27 @@
 <body>
 
     <fieldset>
+        <legend>FORMULARIO</legend>
         <form method="post" action="/pessoas/criar">
+
+            <h2>POR FAVOR PREENCHER OS DADOS ABAIXO</h2>
+            
             <label for="nome">Nome:</label>
-            <input type="text" id="nome" name="nome" />
+            <input type="text" id="nome" name="nome" placeholder="Digite seu nome" />
 
             <br>
 
             <label for="sobrenome">Sobrenome:</label>
-            <input type="text"  name="sobrenome" />
+            <input type="text" placeholder="Digite seu sobrenome" name="sobrenome" />
 
             <br>
 
             <label for="idade">Idade:</label>
-            <input type="text" name="idade">
+            <input type="number" placeholder="Digite sua idade" name="idade">
 
             <br>
-    
-            <label for="altu">Altura:</label>
-            <input type="text" name="altura">
-
-            <br>
-            
-            <input type="submit" value="Enviar">
+          
+            <input type="submit" id="botao" value="Enviar">
         </form>
     </fieldset>
 </body>
